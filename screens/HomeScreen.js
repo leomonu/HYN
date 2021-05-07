@@ -10,11 +10,12 @@ export default class HomeScreen extends React.Component{
         
     render(){
         return(
-            <View style = {{flex:1,alignItems:'center'}}>
+            <View style = {{flex:1, alignItems:'center'}}>
                 <MyHeader
                     title = {'Help Your Neighbour'}
                     navigation = {this.props.navigation}
                 />
+                
                 <Image
                     style = {{width:200,height:200,marginBottom:100}}
                     source = {require('../assets/logo.png')}
@@ -53,7 +54,8 @@ export default class HomeScreen extends React.Component{
                     Ask for Help
                      </Text>
                 </TouchableOpacity>
-            </View>
+                </View>
+            
         )
     }
 }

@@ -108,7 +108,7 @@ export default class RequestForHelp extends React.Component{
                 <View>
                 <DropDownPicker
                         items={[
-                            {label: 'Bangalore', value: 'Bangalore',  },
+                            {label: 'Bangalore', value: 'Bangalore', },
                             {label: 'Mysore', value: 'Mysore' },
                             {label: 'Mumbai', value: 'Mumbai' },
                         ]}

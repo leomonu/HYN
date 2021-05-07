@@ -38,7 +38,8 @@ export default class VolenteerScreen extends React.Component{
         db.collection('allNotification').add({
           requested_by:requestedBy,
           helper_id:this.state.userId,
-          help_required:helpRequired
+          help_required:helpRequired,
+          notification_status: 'unread'
         })
         Alert.alert('Notification sent')
         alert('Notification Sent')
